@@ -50,7 +50,8 @@ wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/slowdns-drop; chmo
 wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/slowdns-ssh; chmod +x slowdns-ssh
 wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/slowdns-ssl; chmod +x slowdns-ssl
 wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/slowdns-socks; chmod +x slowdns-socks
-wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/slowdns; chmod +x slowdns; cp slowdns /bin/
+#wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/slowdns; chmod +x slowdns; cp slowdns /bin/
+wget https://raw.githubusercontent.com/ThonyDroidYT/slowdns/main/slowdns; chmod +x slowdns; cp slowdns /bin/
 wget https://raw.githubusercontent.com/LaelsonCG/slowdns/main/stopdns; chmod +x stopdns
 }
 fun_bar 'fun_att'
@@ -77,4 +78,4 @@ echo -e "          \033[1;33mINSTALAÇÃO CONCLUIDA!\033[0m          "
 echo ""
 echo -e "Para abrir o menu, use o comando: \033[1;33mslowdns\033[0m"
 cd
-rm install
+rm -rf install
